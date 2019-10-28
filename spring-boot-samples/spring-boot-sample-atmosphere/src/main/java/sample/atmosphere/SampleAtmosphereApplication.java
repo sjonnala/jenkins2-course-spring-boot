@@ -62,7 +62,6 @@ public class SampleAtmosphereApplication {
 	@Configuration
 	static class MvcConfiguration extends WebMvcConfigurerAdapter {
 
-		// Testing for git commit in Jenkins
 		@Override
 		public void addViewControllers(ViewControllerRegistry registry) {
 			registry.addViewController("/").setViewName("forward:/home/home.html");
